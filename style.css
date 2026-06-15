@@ -28,6 +28,10 @@
    text-decoration: none;
 }
 
+.arrow{
+    align-items: center;
+}
+
 /* banner style */
 .heading-page {
     font-weight: 700;
@@ -45,6 +49,9 @@
     font-size: 1rem;
     border-radius: 41px; 
     padding: 12px 24px;
+    display: flex;
+       align-items: center;
+    gap: 8px;
     
 }
 .item-1{
@@ -61,4 +68,71 @@
 .front-view{
     justify-content: space-between;
     align-items: center;
+}
+
+/* 2nd Page */
+.logos{
+
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+  
+   
+}
+
+.logo{
+    margin-right: 4rem;
+    
+}
+.nd-page{
+    align-items: center;
+     margin: 4rem auto;
+     Max-width: 1110px;
+     justify-content: center;
+    box-shadow: 0 1px 8px rgba(170, 170, 170, 0.15);
+    
+}
+
+/* card shere item */
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 2rem;
+}
+
+.card-item{
+    max-width: 1047px;
+    margin: 2rem auto 5rem;
+    justify-content: center;
+}
+.card-heading{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card{
+    background-color: #FFFFFF;
+        border-radius: 8px;
+
+    /* Shadow */
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+
+    opacity: 1;
+    padding: 15px;
+}
+.star-item{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    height: 32px;
+    width: 122px;
+}
+.last-part{
+    display: flex;
+    align-items: center;
+     justify-content: flex-end;
+}
+.last-p{
+    color: #E02C6D;
+    font-weight: 700;
 }
