@@ -49,8 +49,10 @@
     font-size: 1rem;
     border-radius: 41px; 
     padding: 12px 24px;
+    height: 44px ;
+    width: 200px;
     display: flex;
-       align-items: center;
+    align-items: center;
     gap: 8px;
     
 }
@@ -135,4 +137,47 @@
 .last-p{
     color: #E02C6D;
     font-weight: 700;
+}
+
+/* last page */
+.last-page{
+    max-width: 1110px;
+    max-height: 270px ;
+      margin: 100px auto;
+}
+.last-item{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+/*footer */
+.footer-part{
+    background-color: #9F9F9F;
+     padding: 40px 0;
+}
+.footer-con{
+    margin: 50px auto;
+   width: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.star-item{
+       display: flex;
+    justify-content: center;
+     align-items: center;
+     
+    gap: 30px;
+    
+    margin: 0 auto;
+    
+} 
+.hed{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin: 0 auto;
+  
 }
