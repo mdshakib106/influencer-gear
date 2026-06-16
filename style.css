@@ -31,7 +31,10 @@
 .arrow{
     align-items: center;
 }
-
+.h-titale{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
 /* banner style */
 .heading-page {
     font-weight: 700;
@@ -58,6 +61,8 @@
 }
 .item-1{
     margin-left: 7.5rem;
+    max-width:582px ;
+    max-height: 270px;
     
 }
 .item-2{
@@ -181,3 +186,147 @@
     margin: 0 auto;
   
 }
+
+/* resposive design */
+@media screen and (max-width:576px) {
+      .nav-bar{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar h1{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .nav-links{
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .nav-item{
+        flex-shrink: 0;
+    }
+    .front-view{
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+           
+    }
+    .item-2 {
+    background-image: url(./images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-right: 8rem;
+    }
+
+    .item-2 img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .item-1{
+        max-width: 321px;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+    }
+    .heading-page{
+        font-size: 28px;
+
+    }
+    .heading-contain{
+        font-size: 14px;
+        font-weight: 500;
+
+    }
+    
+
+    /* 2nd page */
+    .logos{
+        display: grid;
+        grid-template-columns: repeat(4,auto);
+         justify-content: center;
+          
+        gap: 0px;
+          
+
+    }
+    .logo img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    justify-content: center;
+        justify-items: center;
+        ;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.card-heading{
+    font-size: 1rem;
+    font-weight: 600px;
+}
+
+/* last page */
+.last-page {
+    margin-top: 10px;
+
+}
+.last-item{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.heading-last{
+    font-size: 1.5rem;
+    text-align: center;
+        align-items: center;
+}
+.last-con{
+          width: 100%;
+        margin: auto;
+        align-items: center;
+
+    
+    }
+ .last-img{
+    margin: 10px auto;
+ }
+
+  
+
+.footer-part{
+    background-color: #9F9F9F;
+    margin-top: 10px;
+    max-height: 211px;
+}
+
+
+
+    .footer-con{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+
+
+
+}
+
+
+    
+
+    
